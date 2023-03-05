@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --primary: #344f8a;
+  --secondary: #17377dcb;
+  --tertiary: #253963;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: var(--primary);
+}
+
+/*--- NAV HEADER LANDING PAGE ---*/
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+#logo {
+  margin: 20px;
+}
+
+#nav-primary {
+  width: 55%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+#nav-primary > a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 14px;
+  transition: 190ms;
+  border-radius: 40px;
+}
+
+#nav-primary > a:hover {
+  border-radius: 40px;
+  padding: 10px 14px;
+  transform: scale(120%);
+}
+
+#donation {
+  padding: 10px;
+  background-color: var(--secondary);
+  color: black;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+#donation-a {
+  text-decoration: none;
+}
+
+#donation:hover {
+  background-color: #068140;
+  transform: scale(120%);
+  transition: 190ms;
+}
+
+#donation > a {
+  color: white;
+}
+
+/*--- SECONDARY NAV HEADER LANDING PAGE ---*/
+
+#nav-secondary-background {
+  display: flex;
+  background-color: var(--tertiary);
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  padding: 10px 14px;
+  transition: 0.5s;
+}
+
+#nav-secondary {
+  display: flex;
+  justify-content: end;
+  gap: 10px 45px;
+}
+
+#nav-secondary > a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+  transition: 190ms;
+}
+
+#nav-secondary > a:hover {
+  transform: scale(120%);
+}
+
+/*--- MAIN SECTION ---*/
+
+#main {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/WhatsApp-Image-2018-10-21-at-12.56.41.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 78vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-background {
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: ;
+}
+
+#event-logo > img {
+  width: 400px;
+}
+
+#disclaimer > h2 {
+  font-size: 5em;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#about-event {
+  font-size: 2em;
+  color: white;
+  text-align: left;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#more {
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+/*--- SECONDARY MAIN ---*/
+
+#secondary-main {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+  max-width: 65%;
+  flex-wrap: wrap;
+}
+
+#disclaimer-2 {
+  width: 47%;
+}
+
+#disclaimer-2 > h3 {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 7px;
+}
+
+#disclaimer-2 > h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 21px;
+}
+
+#disclaimer-2 strong {
+  font-size: 30px;
+}
+
+#disclaimer-2 p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#video {
+  height: 300px;
+  width: 48%;
+  display: flex;
+  justify-content: end;
+}
+
+#video > iframe {
+  border: 4px solid var(--primary);
+  border-radius: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+#inf-donation {
+  height: 350px;
+  width: 100%;
+  background-color: red;
+  margin: auto;
+}
+
+/*--- TERTIARY SECTION---*/
+
+  #tertiary-main {
+    background-color: var(--primary);
+    height: 500px;
+  }
